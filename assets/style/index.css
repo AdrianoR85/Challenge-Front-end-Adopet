@@ -1,0 +1,31 @@
+.index__body {
+    background-color: var(--azul); 
+    background-image: 
+        url(../image/Forma\ 1.png), 
+        url(../image/FormaRight.png), 
+        url(../image/Ilustração.png);
+    background-position: 
+        left top, 
+        right center, 
+        bottom 4.5rem center;
+    background-size: auto, auto, 15rem;
+    background-repeat: no-repeat;
+}
+
+.index__content {
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.index__content {
+    width: 75%;
+    
+}
+
+.index__title {
+    font-size: 1.625rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
