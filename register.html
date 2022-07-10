@@ -5,43 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopet</title>
-    <link rel="stylesheet" href="assets/style/colors.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style/body.css">
-    <link rel="stylesheet" href="assets/style/loginAndRegister.css">
-    <link rel="stylesheet" href="assets/style/button.css">
-    <link rel="stylesheet" href="assets/style/menu.css">
-    <link rel="stylesheet" href="assets/style/content.css">
-    <link rel="stylesheet" href="assets/style/footer.css">
+
+    <link rel="stylesheet" href="assets/style/general/colors.css">
+    <link rel="stylesheet" href="assets/style/general/body.css">
+    <link rel="stylesheet" href="assets/style/backgrounds/backgrounds.css">
+    <link rel="stylesheet" href="assets/style/register.css">
+    <link rel="stylesheet" href="assets/style/inputs-labels/labels.css">
+    <link rel="stylesheet" href="assets/style/inputs-labels/inputs.css">
+    <link rel="stylesheet" href="assets/style/general/button.css">
+    <link rel="stylesheet" href="assets/style/general/menu.css">
+    <link rel="stylesheet" href="assets/style/general/general.css">
+    <link rel="stylesheet" href="assets/style/general/footer.css">
 </head>
-<body class="loginAndRegister">
+<body class="bg__01">
     
     <header class="menu">
         <img class="menu__icon" src="assets/image/Casa.png" alt="icone da página home">
         <img class="menu__icon" src="assets/image/Mensagens.png" alt="icone da página home">
     </header>
 
-    <main class="content register__content">
+    <main class="body__main register__content">
         <div class="logo-blue">
             <img src="assets/image/Logo-blue.png" alt="logo da empresa">
         <div>
-        <h1 class="register__title">Ainda não tem cadastro?</h1>
-        <p class="register__text">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+        <p class="register__text body__colorA">Ainda não tem cadastro?</p>
+        <p class="register__text register__text--second body__colorA">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
 
         <form class="form" action="get">
-            <label class="label" for="email">Email</label>
-            <input class="input" type="email" name="email" id="registerEmail" placeholder="Escolha seu melhor email">
+            <label class="label__classA" for="email">Email</label>
+            <input class="input__classA" type="email" name="email" id="registerEmail" placeholder="Escolha seu melhor email">
 
-            <label class="label" for="name">Nome</label>
-            <input class="input" type="text" name="name" id="registerName" placeholder="Digite seu nome completo">
+            <label class="label__classA" for="name">Nome</label>
+            <input class="input__classA" type="text" name="name" id="registerName" placeholder="Digite seu nome completo">
 
-            <label class="label" for="password">Senha</label>
-            <input class="input input__icon" type="password" name="password" id="registerPassword" placeholder="Crie uma senha">
+            <label class="label__classA" for="password">Senha</label>
+            <input class="input__classA input__icon" type="password" name="password" id="registerPassword" placeholder="Crie uma senha">
 
-            <label class="label" for="name">Confirma sua senha</label>
-            <input class="input input__icon" type="text" name="confirmPassword" id="registerConfirmPassword" placeholder="Repita a senha criada">
+            <label class="label__classA" for="name">Confirma sua senha</label>
+            <input class="input__classA input__icon" type="text" name="confirmPassword" id="registerConfirmPassword" placeholder="Repita a senha criada">
         </form>
             
         <button class="button">Cadastrar</button>

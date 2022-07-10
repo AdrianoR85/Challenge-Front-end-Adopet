@@ -1,0 +1,13 @@
+.menu {
+    padding: 3rem;
+}
+
+.menu__icon {
+    padding-right: 2rem;
+}
+
+.menu__profile {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}

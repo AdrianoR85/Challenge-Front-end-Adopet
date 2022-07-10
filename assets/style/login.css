@@ -1,0 +1,10 @@
+.login__forgotPassword {
+    color: var(--coral);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.login__text {
+    padding: 2rem;
+    
+}

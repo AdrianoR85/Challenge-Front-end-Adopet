@@ -8,33 +8,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="assets/style/colors.css">
-    <link rel="stylesheet" href="assets/style/body.css">
-    <link rel="stylesheet" href="assets/style/loginAndRegister.css">
-    <link rel="stylesheet" href="assets/style/button.css">
-    <link rel="stylesheet" href="assets/style/menu.css">
-    <link rel="stylesheet" href="assets/style/content.css">
-    <link rel="stylesheet" href="assets/style/footer.css">
+    
+    <link rel="stylesheet" href="assets/style/general/colors.css">
+    <link rel="stylesheet" href="assets/style/general/body.css">
+    <link rel="stylesheet" href="assets/style/backgrounds/backgrounds.css">
+    <link rel="stylesheet" href="assets/style/login.css">
+    <link rel="stylesheet" href="assets/style/inputs-labels/labels.css">
+    <link rel="stylesheet" href="assets/style/inputs-labels/inputs.css">
+    <link rel="stylesheet" href="assets/style/general/button.css">
+    <link rel="stylesheet" href="assets/style/general/menu.css">
+    <link rel="stylesheet" href="assets/style/general/general.css">
+    <link rel="stylesheet" href="assets/style/general/footer.css">
 </head>
-<body class="loginAndRegister login__conteiner">
+<body class="bg__01">
 
     <header class="menu">
         <img class="menu__icon" src="assets/image/Casa.png" alt="icone da página home">
         <img class="menu__icon" src="assets/image/Mensagens.png" alt="icone da página home">
     </header>
 
-    <main class="content login__content">
-        <div class="logo-blue">
+    <main class="body__main login__content">
+        <div class="logo-blue body__colorA">
             <img src="assets/image/Logo-blue.png" alt="logo da empresa">
         <div>
-        <h1 class="register__title login__title">Já tem conta? Faça seu login</h1>
+        <p class="login__text body__colorA">Já tem conta? Faça seu login</p>
 
         <form class="form" action="get">
-            <label class="label" for="email">Email</label>
-            <input class="input" type="email" name="email" id="registerEmail" placeholder="Escolha seu melhor email">
+            <label class="label__classA" for="email">Email</label>
+            <input class="input__classA" type="email" name="email" id="registerEmail" placeholder="Escolha seu melhor email">
 
-            <label class="label" for="password">Senha</label>
-            <input class="input input__icon" type="password" name="password" id="registerPassword" placeholder="Crie uma senha">
+            <label class="label__classA" for="password">Senha</label>
+            <input class="input__classA input__icon" type="password" name="password" id="registerPassword" placeholder="Crie uma senha">
         </form>
 
         <a class="login__forgotPassword" href="#" >Esqueci minha senha</a>
