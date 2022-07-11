@@ -1,9 +1,9 @@
 .menu {
     margin: 2rem 3rem;
-}
-
-.menu__icon {
-    padding-right: 2rem;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menu__profile {
@@ -12,7 +12,18 @@
     top: 2rem;
 }
 
+.menu__logo {
+    display: none;
+}
+
 /* Tablet*/
-@media screen and(max-width: 768px) {
+@media screen and(min-width: 380px) {
+    .menu__logo {
+        display: block;
+    }
+}
+
+@media screen and(min-width: 0px) {
     
 }
+
