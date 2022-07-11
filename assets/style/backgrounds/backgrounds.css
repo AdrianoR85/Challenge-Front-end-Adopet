@@ -1,7 +1,7 @@
 .bg__index {
     background-image: 
-            url(../../image/background/header.svg), 
-            url(../../image/background/right.svg), 
+            url(../../image/background/header.png), 
+            url(../../image/background/right.png), 
             url(../../image/background/dog-cat.svg);
     background-color: var(--blue); 
     background-repeat: no-repeat;
@@ -10,13 +10,13 @@
 .bg__01 {
     background-image: 
             url(../../image/background/Patas.png),
-            url(../../image/background/header.svg), 
-            url(../../image/background/left.svg);
+            url(../../image/background/header.png), 
+            url(../../image/background/left.png);
     background-repeat: no-repeat;
 }
 
 .bg__02 {
-    background-image: url(../../image/background/header.svg),;
+    background-image: url(../../image/background/header.png),;
     background-repeat: no-repeat;
 }
 
@@ -35,7 +35,7 @@
         right top,
         left top, 
         left bottom -3rem;                 
-        background-size: auto, 18rem, auto;
+        background-size: auto, 16rem, auto;
     }
 
     .bg__01--login {
@@ -43,7 +43,7 @@
             right top,
             left top, 
             left bottom 5rem;
-        background-size: 8rem, 18rem, 4rem;
+        background-size: 8rem, 16rem, 4rem;
     }
 
     .bg__02 {
