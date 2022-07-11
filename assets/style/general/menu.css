@@ -11,3 +11,8 @@
     right: 2rem;
     top: 2rem;
 }
+
+/* Tablet*/
+@media screen and(max-width: 768px) {
+    
+}
