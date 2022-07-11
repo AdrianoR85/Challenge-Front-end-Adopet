@@ -5,10 +5,10 @@
         url(../../image/FormaRight.png), 
         url(../../image/background/Ilustração\ 1.svg);
     background-position: 
-        left top, 
+        left top -1rem, 
         right center, 
-        bottom -1rem center;
-    background-size: auto, auto, 50%;
+        bottom center;
+    background-size: 80%, auto, 50%;
     background-repeat: no-repeat;
 }
 
@@ -28,6 +28,11 @@
 .bg__02 {
     background-image: url('../../image/Forma\ 1.png');
     background-repeat: no-repeat;
+}
+
+@media screen and(max-width:360px) {
+    .bg__index {
+    }
 }
 
 
