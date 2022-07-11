@@ -3,14 +3,13 @@
     background-image: 
         url(../../image/Forma\ 1.png), 
         url(../../image/FormaRight.png), 
-        url(../../image/Ilustração.png);
+        url(../../image/background/Ilustração\ 1.svg);
     background-position: 
         left top, 
         right center, 
-        bottom 4.5rem center;
-    background-size: auto, auto, 15rem;
+        bottom -1rem center;
+    background-size: auto, auto, 50%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .bg__01 {
@@ -24,13 +23,11 @@
         left bottom 25%;
     background-size: auto;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .bg__02 {
     background-image: url('../../image/Forma\ 1.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 
