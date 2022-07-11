@@ -12,3 +12,7 @@
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
+
+.button__register {
+    margin-bottom: 1rem;
+}

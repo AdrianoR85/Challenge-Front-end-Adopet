@@ -5,10 +5,10 @@
         url(../../image/FormaRight.png), 
         url(../../image/background/Ilustração\ 1.svg);
     background-position: 
-        left top -1rem, 
+        left top, 
         right center, 
-        bottom 1.5rem center;
-    background-size: 80%, auto, 50%;
+        bottom 2rem center;
+    background-size:18rem, auto, 45%;
     background-repeat: no-repeat;
 }
 
@@ -20,8 +20,8 @@
     background-position: 
         right top,
         left top, 
-        left bottom 25%;
-    background-size: auto;
+        left bottom;
+    background-size: 8rem, 18rem, 5rem;
     background-repeat: no-repeat;
 }
 
