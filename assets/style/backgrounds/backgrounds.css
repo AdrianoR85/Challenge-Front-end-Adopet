@@ -7,7 +7,7 @@
     background-position: 
         left top -1rem, 
         right center, 
-        bottom center;
+        bottom 1.5rem center;
     background-size: 80%, auto, 50%;
     background-repeat: no-repeat;
 }
