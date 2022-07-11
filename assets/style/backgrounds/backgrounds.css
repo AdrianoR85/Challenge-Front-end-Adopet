@@ -70,8 +70,8 @@
         background-image: 
             url(../../image/background/tablet-pc/Patas.png),
             url(../../image/background/tablet-pc/header.svg), 
-            url(../../image/background/mobile/FormaLeft.png);
-        background-size: auto, auto, auto;
+            url(../../image/background/tablet-pc/left.svg);
+        background-size: auto, 70%, auto;
         background-position: 
             right top,
             left top, 
