@@ -27,15 +27,15 @@
         left top, 
         right center, 
         bottom 2rem center;
-        background-size:18rem, auto, 45%;
+        background-size:16rem, auto, 45%;
     }
 
     .bg__01{
-        background-size: auto, 18rem, auto;
         background-position: 
-            right top,
-            left top, 
-            left bottom -3rem;                 
+        right top,
+        left top, 
+        left bottom -3rem;                 
+        background-size: auto, 18rem, auto;
     }
 
     .bg__01--login {
