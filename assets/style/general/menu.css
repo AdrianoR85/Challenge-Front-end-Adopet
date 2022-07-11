@@ -1,6 +1,6 @@
 .menu {
     margin: 2rem 3rem;
-    width: 300px;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,14 +16,12 @@
     display: none;
 }
 
+
 /* Tablet*/
-@media screen and(min-width: 380px) {
+@media screen and(max-width: 760px) {
     .menu__logo {
         display: block;
     }
 }
 
-@media screen and(min-width: 0px) {
-    
-}
 

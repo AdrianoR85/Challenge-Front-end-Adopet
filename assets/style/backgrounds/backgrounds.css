@@ -5,6 +5,11 @@
             url(../../image/background/dog-cat.svg);
     background-color: var(--blue); 
     background-repeat: no-repeat;
+    background-position: 
+        left top -1rem, 
+        right center, 
+        bottom 2rem center;
+        background-size:15rem, auto, 40%;
 }
 
 .bg__01 {
@@ -13,6 +18,19 @@
             url(../../image/background/header.png), 
             url(../../image/background/left.png);
     background-repeat: no-repeat;
+    background-position: 
+        right top,
+        left top -1rem, 
+        left bottom -3rem;                 
+        background-size: auto, 16rem, auto;
+}
+
+.bg__01--login {
+    background-position: 
+        right top,
+        left top -1rem, 
+        left bottom 5rem;
+    background-size: 8rem, 16rem, 3rem;
 }
 
 .bg__02 {
@@ -20,68 +38,7 @@
     background-repeat: no-repeat;
 }
 
-/* MOBILE*/
-@media screen and (min-width: 0px) {
-    .bg__index{
-        background-position: 
-        left top, 
-        right center, 
-        bottom 2rem center;
-        background-size:16rem, auto, 45%;
-    }
 
-    .bg__01{
-        background-position: 
-        right top,
-        left top, 
-        left bottom -3rem;                 
-        background-size: auto, 16rem, auto;
-    }
-
-    .bg__01--login {
-        background-position: 
-            right top,
-            left top, 
-            left bottom 5rem;
-        background-size: 8rem, 16rem, 4rem;
-    }
-
-    .bg__02 {
-        background-size: 18rem;
-    }
-}
-
-
-/* TABLET */
-@media screen and (min-width: 380px) {
-    .bg__index{
-        background-position: 
-        left top, 
-        right center, 
-        bottom center;
-        background-size:auto, auto, auto;
-    }
-
-    .bg__01{
-        background-size: auto, 70%, auto;
-        background-position: 
-            right top,
-            left top, 
-            left bottom;                 
-    }
-
-    .bg__01--login {
-        background-position: 
-            right top,
-            left top, 
-            left bottom;
-        background-size: auto, auto, auto;
-    }
-
-    .bg__02 {
-        background-size: 18rem;
-    }
-}
 
 
 
