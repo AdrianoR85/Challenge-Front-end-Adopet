@@ -1,9 +1,17 @@
 .bg__index {
+    background-image: 
+            url(../../image/background/header.svg), 
+            url(../../image/background/right.svg), 
+            url(../../image/background/dog-cat.svg);
     background-color: var(--blue); 
     background-repeat: no-repeat;
 }
 
 .bg__01 {
+    background-image: 
+            url(../../image/background/Patas.png),
+            url(../../image/background/header.svg), 
+            url(../../image/background/left.svg);
     background-repeat: no-repeat;
 }
 
@@ -15,10 +23,6 @@
 /* MOBILE*/
 @media screen and (min-width: 0px) {
     .bg__index{
-        background-image: 
-            url(../../image/background/mobile/Forma\ 1.png), 
-            url(../../image/background/mobile/FormaRight.png), 
-            url(../../image/background//tablet-pc/Ilustração\ 1.svg);
         background-position: 
         left top, 
         right center, 
@@ -27,10 +31,6 @@
     }
 
     .bg__01{
-        background-image: 
-            url(../../image/background/tablet-pc/Patas.png),
-            url(../../image/background/mobile/Forma\ 1.png), 
-            url(../../image/background/mobile/FormaLeft.png);
         background-size: auto, 18rem, auto;
         background-position: 
             right top,
@@ -55,10 +55,6 @@
 /* TABLET */
 @media screen and (min-width: 380px) {
     .bg__index{
-        background-image: 
-            url(../../image/background/tablet-pc/header.svg), 
-            url(../../image/background/tablet-pc/right.svg), 
-            url(../../image/background//tablet-pc/Ilustração\ 1.svg);
         background-position: 
         left top, 
         right center, 
@@ -67,10 +63,6 @@
     }
 
     .bg__01{
-        background-image: 
-            url(../../image/background/tablet-pc/Patas.png),
-            url(../../image/background/tablet-pc/header.svg), 
-            url(../../image/background/tablet-pc/left.svg);
         background-size: auto, 70%, auto;
         background-position: 
             right top,
