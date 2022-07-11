@@ -12,4 +12,6 @@
 
 .index__title {
     font-size: 1.625rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
 }
