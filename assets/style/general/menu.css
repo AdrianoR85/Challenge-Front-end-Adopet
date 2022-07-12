@@ -1,9 +1,8 @@
 .menu {
     margin: 1.5rem 3rem;
-    width: 4rem;
-    display: flex;
-    align-items: center;
+    display: grid;
     justify-content: space-between;
+    align-items: center;
 }
 
 .menu__profile {
@@ -12,13 +11,39 @@
     top: 2rem;
 }
 
+.menu__icon {
+   display: flex;
+   align-items: center;
+}
+
 .menu__logo {
     display: none;
 }
 
 
+@media (min-width: 0px) {
+    .menu {
+        grid-template-columns:15% 15% 70%;
+    }
+}
+
 /* Tablet*/
-@media screen and(min-width: 760px) {
+@media (min-width:760px){
+    .menu {
+        grid-template-columns: auto auto auto 65%;
+        padding: 2rem;
+    }
+
+    .menu__logo {
+        display: block;
+    }
+}
+
+@media (min-width:1060px) {
+    .menu {
+        grid-template-columns: auto auto auto 70%;
+    }
+
     .menu__logo {
         display: block;
     }

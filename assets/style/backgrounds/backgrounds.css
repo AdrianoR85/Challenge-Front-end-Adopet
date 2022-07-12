@@ -1,33 +1,72 @@
+
 .bg__index {
-    background-image: 
-            url(../../image/background/header.png), 
-            url(../../image/background/right.png), 
-            url(../../image/background/dog-cat.svg);
     background-color: var(--blue); 
     background-repeat: no-repeat;
-    background-position: 
-        left top, 
-        right center, 
-        bottom 2rem center;
-    background-size:17rem, 4rem, 13rem;
 }
 
 .bg__01 {
-    background-image: 
-            url(../../image/background/Patas.png),
-            url(../../image/background/header.png), 
-            url(../../image/background/left.png);
     background-repeat: no-repeat;
-    background-position: 
-        right top,
-        left top, 
-        left bottom 4rem;                 
-        background-size: 6rem, 17rem, 4rem;
 }
 
-.bg__02 {
-    background-image: url(../../image/background/header.png),;
-    background-repeat: no-repeat;
+/* MOBILE */
+@media (min-width: 0px) {
+    .bg__index {
+        background-image: 
+            url(../../image/background/header.svg), 
+            url(../../image/background/dog-cat.svg),
+            url(../../image/background/right.svg); 
+        background-color: var(--blue); 
+        background-position: 
+            left top, 
+            bottom 2rem center,
+            right center; 
+        background-size:17rem, 13rem, 4rem;
+    }
+    
+    .bg__01 {
+        background-image: 
+            url(../../image/background/header.svg), 
+            url(../../image/background/left.svg),
+            url(../../image/background/Patas.png);
+        background-repeat: no-repeat;
+        background-position: 
+            left top, 
+            left bottom 4rem,                  
+            right top;
+        background-size: 17rem, 4rem, 6rem;
+    }
+    
+    .bg__02 {
+        background-image: url(../../image/background/header.svg);
+        background-repeat: no-repeat;
+        background-size: 17rem;
+    }
+}
+
+/* Tablet */
+@media (min-width:760px){
+    .bg__index, .bg__01, .bg__02 {
+        background-size:50%, auto, 80px;
+    }
+
+    .bg__01 {
+        background-image: 
+            url(../../image/background/header.svg), 
+            url(../../image/background/Patas.png),
+            url(../../image/background/right.svg);
+        background-repeat: no-repeat;
+        background-position: 
+            left top, 
+            right top,
+            right center;                 
+    }
+}
+
+/* DESKTOP */
+@media (min-width:1060px) {
+    .bg__index, .bg__01, .bg__02 {
+        background-size:540px, 284px, 100px;
+    }
 }
 
 

@@ -27,7 +27,26 @@ body {
     margin-top: 2rem;
     flex-grow: 1;
     width: 90%;
-    margin-top: 3rem;
+}
+
+@media (min-width: 360px) {
+    .body__main {
+        width: 80%;
+        padding-top: 1rem;
+    }
+}
+
+@media (min-width: 760px) {
+    .body__main {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1060px) {
+    .body__main {
+        width: 40%;
+        padding: 0 3rem;
+    }
 }
 
 

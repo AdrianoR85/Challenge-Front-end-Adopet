@@ -60,3 +60,23 @@
     margin-left: .5rem;
     margin-top: -0.1rem;
 }
+
+/* TABLET */
+@media (min-width:760px) {
+    .dogs__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 20px;
+    }
+
+    .home__content {
+        width: 90%;
+    }
+
+    .home__text {
+        font-size: 1.125rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
