@@ -9,7 +9,7 @@
         left top, 
         right center, 
         bottom 2rem center;
-    background-size:17rem, 5rem, 13rem;
+    background-size:17rem, 4rem, 13rem;
 }
 
 .bg__01 {
@@ -21,15 +21,8 @@
     background-position: 
         right top,
         left top, 
-        left bottom 2rem;                 
-        background-size: auto, 17rem, 5rem;
-}
-
-.bg__01--login {
-    background-position: 
-        right top,
-        left top, 
-        left bottom 2rem;
+        left bottom 4rem;                 
+        background-size: 6rem, 17rem, 4rem;
 }
 
 .bg__02 {
