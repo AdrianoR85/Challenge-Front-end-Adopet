@@ -3,12 +3,7 @@
     display: grid;
     justify-content: space-between;
     align-items: center;
-}
-
-.menu__profile {
-    position: absolute;
-    right: 2rem;
-    top: 2rem;
+    z-index: 0;
 }
 
 .menu__icon {
@@ -20,10 +15,15 @@
     display: none;
 }
 
-
+/* MOBILE */
 @media (min-width: 0px) {
     .menu {
         grid-template-columns:15% 15% 70%;
+        width: 100%;
+    }
+
+    .menu__profile {
+        justify-self: end;
     }
 }
 
@@ -32,6 +32,8 @@
     .menu {
         grid-template-columns: auto auto auto 65%;
         padding: 2rem;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .menu__logo {
@@ -39,14 +41,12 @@
     }
 }
 
+/* DESKTOP */
 @media (min-width:1060px) {
     .menu {
-        grid-template-columns: auto auto auto 70%;
+        grid-template-columns: auto auto auto 80%;
     }
 
-    .menu__logo {
-        display: block;
-    }
 }
 
 

@@ -40,6 +40,10 @@ body {
     .body__main {
         width: 50%;
     }
+
+    body {
+        font-size: 1.125rem;
+    }
 }
 
 @media (min-width: 1060px) {
