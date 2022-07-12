@@ -12,8 +12,19 @@
     padding-bottom: .3rem;
 }
 
+@media (min-width: 0px) {
+    .index__text--add::before {
+        content: 'Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!';
+    }
+}
+
 @media (min-width: 760px) {
     .index__title {
         font-size: 1.75rem;
+    }
+
+
+    .index__text--add::before {
+        content: 'Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!';
     }
 }

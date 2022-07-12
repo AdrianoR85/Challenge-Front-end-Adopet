@@ -1,9 +1,10 @@
 .menu {
     margin: 1.5rem 3rem;
     display: grid;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     z-index: 0;
+
 }
 
 .menu__icon {
@@ -31,13 +32,14 @@
 @media (min-width:760px){
     .menu {
         grid-template-columns: auto auto auto 65%;
-        padding: 2rem;
+        padding: 3.5rem;
         width: 80%;
         margin: 0 auto;
     }
 
     .menu__logo {
         display: block;
+        padding: 1rem;
     }
 }
 
