@@ -59,11 +59,8 @@
         background-position: 
             left top, 
             right top,
-            right center;                 
-    }
-
-    .bg__01 {
-        background-size:60%, 30px, 80px;
+            right center; 
+        background-size:60%, 30px, 80px;                
     }
 }
 
@@ -72,12 +69,25 @@
     .bg__index, .bg__01, .bg__02 {
         background-size: 534px, 180px, 85px;
     }
+
+    .bg__02 {
+        background-image: 
+            url(../../image/background/header.svg),
+            url(../../image/background/right.svg);
+        background-position: left top, right center;
+        background-repeat: no-repeat;
+        background-size: 400px, 85px;
+    }
 }
 
 /* DESKTOP */
 @media (min-width:1400px) {
-    .bg__index, .bg__01, .bg__02 {
-        background-size:600px, 230px, 100px;
+    .bg__index, .bg__01 {
+        background-size:550px, 230px, 100px;
+    }
+
+    .bg__02 {
+        background-size: 550px, 100px;
     }
 }
 

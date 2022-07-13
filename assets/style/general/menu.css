@@ -32,7 +32,7 @@
 @media (min-width:670px){
     .menu {
         padding: 3.5rem;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
 
@@ -41,19 +41,13 @@
     }
 }
 
+/* LAPTOP */
 @media (min-width:900px) {
     .menu {
-       
+       width: 90%;
     }
 }
 
-/* DESKTOP */
-@media (min-width:1200px) {
-    .menu {
-        grid-template-columns: auto auto auto 80%;
-    }
-
-}
 
 
 
