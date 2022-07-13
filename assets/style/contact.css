@@ -1,0 +1,8 @@
+.contact__form {
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.contact__message::placeholder {
+    text-align: left;
+}

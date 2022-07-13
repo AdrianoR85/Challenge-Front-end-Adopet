@@ -33,6 +33,6 @@
 
 @media (min-width: 900px) {
     .index__content {
-        margin-top: 2rem;
+        margin-top: 0rem;
     }
 }

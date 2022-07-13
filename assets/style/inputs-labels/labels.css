@@ -3,3 +3,10 @@
     font-size: 1rem;
     font-weight: 400; 
 }
+
+.label__classB {
+    text-align: left;
+    color: var(--blue);
+    font-weight: 600;
+    padding-left: .7rem;
+}

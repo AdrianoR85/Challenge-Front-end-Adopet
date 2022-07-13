@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/style/general/colors.css">
     <link rel="stylesheet" href="assets/style/general/body.css">
     <link rel="stylesheet" href="assets/style/backgrounds/backgrounds.css">
-    <link rel="stylesheet" href="assets/style/register.css">
+    <link rel="stylesheet" href="assets/style/contact.css">
     <link rel="stylesheet" href="assets/style/inputs-labels/labels.css">
     <link rel="stylesheet" href="assets/style/inputs-labels/inputs.css">
     <link rel="stylesheet" href="assets/style/general/button.css">
@@ -20,36 +20,34 @@
     <link rel="stylesheet" href="assets/style/general/general.css">
     <link rel="stylesheet" href="assets/style/general/footer.css">
 </head>
-<body class="bg__01">
+<body class="bg__02">
     
     <header class="menu">
         <img class="menu__logo" src="assets/image/Logo-header.png" alt="">
         <a class="menu__icon" href="index.html"><img src="assets/image/Casa.png" alt="icone da página home"></a>
         <a class="menu__icon" href="contact.html"><img  src="assets/image/Mensagens.png" alt="icone da página home"></a>
+        <a class="menu__icon menu__profile" href=""><img src="assets/image/porfile.png" alt=""></a>
     </header>
 
-    <main class="body__main register__content">
-        <div class="logo-blue">
-            <img src="assets/image/Logo-blue.png" alt="logo da empresa">
-        <div>
-        <p class="register__text body__colorA">Ainda não tem cadastro?</p>
-        <p class="register__text body__colorA">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+    <main class="body__main contact__body">
+        <p class="body__colorA">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:
+        </p>
 
-        <form class="form" action="get">
-            <label class="label__classA" for="email">Email</label>
-            <input class="input__classA" type="email" name="email" id="registerEmail" placeholder="Escolha seu melhor email">
+        <form class="contact__form" action="get">
+            <label class="label__classB" for="name">Nome</label>
+            <input class="input__classA" type="text" name="name" id="contactName" placeholder="Insire seu nome completo">
 
-            <label class="label__classA" for="name">Nome</label>
-            <input class="input__classA" type="text" name="name" id="registerName" placeholder="Digite seu nome completo">
+            <label class="label__classB" for="phone">Telefone</label>
+            <input class="input__classA" type="number" name="phone" id="contactPhone" placeholder="Insira seu telefone e/ou whatsapp">
 
-            <label class="label__classA" for="password">Senha</label>
-            <input class="input__classA input__icon" type="password" name="password" id="registerPassword" placeholder="Crie uma senha">
+            <label class="label__classB" for="petName">Nome do animal</label>
+            <input class="input__classA input__icon" type="text" name="petName" id="petName" placeholder="Por qual animal vocêse interessou?">
 
-            <label class="label__classA" for="name">Confirma sua senha</label>
-            <input class="input__classA input__icon" type="text" name="confirmPassword" id="registerConfirmPassword" placeholder="Repita a senha criada">
+            <label class="label__classB" for="name">Mensagem</label>
+            <textarea class="input__classA contact__message" name="message" id="contactMessage" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
         </form>
             
-        <button class="button button__register">Cadastrar</button>
+        <button class="button button__register">Enviar</button>
     </main>
 
     <footer class="footer">
