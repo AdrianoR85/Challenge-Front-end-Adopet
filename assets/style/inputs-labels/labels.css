@@ -8,5 +8,6 @@
     text-align: left;
     color: var(--blue);
     font-weight: 600;
-    padding-left: .7rem;
+    padding-left: 1.5rem;
+    display: block;
 }
