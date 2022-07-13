@@ -66,6 +66,10 @@
     .dogs__list {
         z-index: -2;
     }
+
+    .dog {
+        opacity: #f6f6f6;
+    }
 }
 
 /* TABLET */

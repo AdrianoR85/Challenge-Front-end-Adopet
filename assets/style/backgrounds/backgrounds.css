@@ -45,7 +45,7 @@
 }
 
 /* Tablet */
-@media (min-width:760px){
+@media (min-width:680px){
     .bg__index, .bg__01, .bg__02 {
         background-size:60%, auto, 80px;
     }
@@ -63,10 +63,16 @@
     }
 }
 
+@media (min-width:760px) {
+    .bg__index, .bg__01, .bg__02 {
+        background-size:600px, 100px, 100px;
+    }
+}
+
 /* DESKTOP */
 @media (min-width:1060px) {
     .bg__index, .bg__01, .bg__02 {
-        background-size:600px, 284px, 100px;
+        background-size:600px, 200px, 100px;
     }
 }
 
