@@ -36,9 +36,10 @@ body {
     }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 600px) {
     .body__main {
         width: 50%;
+        margin-top: 0;
     }
 
     body {
@@ -46,10 +47,17 @@ body {
     }
 }
 
-@media (min-width: 1060px) {
+@media (min-width: 900px) {
+    .body__main {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 1200px) {
     .body__main {
         width: 40%;
         padding: 0 3rem;
+        margin-top: 2rem;
     }
 }
 

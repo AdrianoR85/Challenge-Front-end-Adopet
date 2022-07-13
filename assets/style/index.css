@@ -18,13 +18,21 @@
     }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 600px) {
     .index__title {
         font-size: 1.75rem;
     }
 
-
+    .index__content {
+        margin-top: 0;
+    }
     .index__text--add::before {
         content: 'Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!';
+    }
+}
+
+@media (min-width: 900px) {
+    .index__content {
+        margin-top: 2rem;
     }
 }

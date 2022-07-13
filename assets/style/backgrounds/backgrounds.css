@@ -45,7 +45,7 @@
 }
 
 /* Tablet */
-@media (min-width:680px){
+@media (min-width:600px){
     .bg__index, .bg__01, .bg__02 {
         background-size:60%, auto, 80px;
     }
@@ -61,18 +61,23 @@
             right top,
             right center;                 
     }
+
+    .bg__01 {
+        background-size:60%, 30px, 80px;
+    }
 }
 
-@media (min-width:760px) {
+/* LAPTOP */
+@media (min-width:900px) {
     .bg__index, .bg__01, .bg__02 {
-        background-size: 600px, 150px, 100px;
+        background-size: 600px, 190px, 100px;
     }
 }
 
 /* DESKTOP */
 @media (min-width:1400px) {
     .bg__index, .bg__01, .bg__02 {
-        background-size:600px, 180px, 100px;
+        background-size:600px, 230px, 100px;
     }
 }
 
