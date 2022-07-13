@@ -65,14 +65,14 @@
 
 @media (min-width:760px) {
     .bg__index, .bg__01, .bg__02 {
-        background-size:600px, 100px, 100px;
+        background-size: 600px, 150px, 100px;
     }
 }
 
 /* DESKTOP */
-@media (min-width:1060px) {
+@media (min-width:1400px) {
     .bg__index, .bg__01, .bg__02 {
-        background-size:600px, 200px, 100px;
+        background-size:600px, 180px, 100px;
     }
 }
 
