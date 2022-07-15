@@ -5,23 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopet</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/style/general/colors.css">
-    <link rel="stylesheet" href="assets/style/general/body.css">
-    <link rel="stylesheet" href="assets/style/backgrounds/backgrounds.css">
     <link rel="stylesheet" href="assets/style/contact.css">
-    <link rel="stylesheet" href="assets/style/general/container.css">
-    <link rel="stylesheet" href="assets/style/inputs-labels/labels.css">
-    <link rel="stylesheet" href="assets/style/inputs-labels/inputs.css">
-    <link rel="stylesheet" href="assets/style/general/button.css">
+    <link rel="stylesheet" href="assets/style/general/form.css">
+    <link rel="stylesheet" href="assets/style/general/body.css">
+    <link rel="stylesheet" href="assets/style/general/background.css">
     <link rel="stylesheet" href="assets/style/general/menu.css">
-    <link rel="stylesheet" href="assets/style/general/general.css">
+    <link rel="stylesheet" href="assets/style/general/button.css">
     <link rel="stylesheet" href="assets/style/general/footer.css">
 </head>
-<body class="bg__02">
+<body class="bg-header">
     
     <header class="menu">
         <img class="menu__logo" src="assets/image/Logo-header.png" alt="">
@@ -30,23 +22,34 @@
         <a class="menu__icon menu__profile" href="profile.html"><img src="assets/image/porfile.png" alt=""></a>
     </header>
 
-    <main class="body__main contact__body">
-        <p class="body__colorA">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:
+    <main class="body__container bg-right--tablet">
+        <p class="body-text">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:
         </p>
-        <div class="container">
-            <form class="contact__form"  action="get">
-                <label class="label__classB" for="name">Nome</label>
-                <input class="input__classA input__class--white" type="text" name="name" id="contactName" placeholder="Insire seu nome completo">
-                <label class="label__classB" for="phone">Telefone</label>
-                <input class="input__classA input__class--white" type="number" name="phone" id="contactPhone" placeholder="Insira seu telefone e/ou whatsapp">
-                <label class="label__classB" for="petName">Nome do animal</label>
-                <input class="input__classA input__class--white" type="text" name="petName" id="petName" placeholder="Por qual animal vocêse interessou?">
-                <label class="label__classB" for="name">Mensagem</label>
-                <textarea class="input__classA input__class--white" name="message" id="contactMessage" cols="30" rows="8" placeholder="Escreva sua mensagem"></textarea>
+        <section class="contact__form">
+            <form class=""  action="get">
+                <div class="form-div">
+                    <label class="form-label form-label--blue" for="name">Nome</label>
+                    <input class="form-input form-input--white" type="text" name="name" id="contactName" placeholder="Insire seu nome completo">
+                </div>
+
+                <div class="form-div">
+                    <label class="form-label form-label--blue" for="phone">Telefone</label>
+                    <input class="form-input form-input--white" type="number" name="phone" id="contactPhone" placeholder="Insira seu telefone e/ou whatsapp">
+                </div>
+
+                <div class="form-div">
+                    <label class="form-label form-label--blue" for="petName">Nome do animal</label>
+                    <input class="form-input form-input--white" type="text" name="petName" id="petName" placeholder="Por qual animal vocêse interessou?">
+                </div class="form-div">
+
+                <div class="form-div">
+                    <label class="form-label form-label--blue" for="name">Mensagem</label>
+                    <textarea class="form-input form-input--white" name="message" id="contactMessage" cols="30" rows="8" placeholder="Escreva sua mensagem"></textarea>
+                </div>
             </form>
             
-            <button class="button button__register">Enviar</button>
-        </div>
+            <button class="button button--last">Enviar</button>
+        </section>
     </main>
 
     <footer class="footer">

@@ -9,53 +9,61 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/style/general/colors.css">
-    <link rel="stylesheet" href="assets/style/general/body.css">
-    <link rel="stylesheet" href="assets/style/backgrounds/backgrounds.css">
     <link rel="stylesheet" href="assets/style/profile.css">
-    <link rel="stylesheet" href="assets/style/general/container.css">
-    <link rel="stylesheet" href="assets/style/inputs-labels/labels.css">
-    <link rel="stylesheet" href="assets/style/inputs-labels/inputs.css">
-    <link rel="stylesheet" href="assets/style/general/button.css">
+    <link rel="stylesheet" href="assets/style/general/form.css">
+    <link rel="stylesheet" href="assets/style/general/body.css">
+    <link rel="stylesheet" href="assets/style/general/background.css">
     <link rel="stylesheet" href="assets/style/general/menu.css">
-    <link rel="stylesheet" href="assets/style/general/general.css">
+    <link rel="stylesheet" href="assets/style/general/button.css">
     <link rel="stylesheet" href="assets/style/general/footer.css">
 </head>
-<body class="bg__02">
+<body class="bg-header ">
     
     <header class="menu">
         <img class="menu__logo" src="assets/image/Logo-header.png" alt="">
         <a class="menu__icon" href="index.html"><img src="assets/image/Casa.png" alt="icone da página home"></a>
         <a class="menu__icon" href="contact.html"><img  src="assets/image/Mensagens.png" alt="icone da página home"></a>
-        <a class="menu__icon menu__profile" href=""><img src="assets/image/porfile.png" alt=""></a>
+        <a class="menu__icon menu__profile" href="profile.html"><img src="assets/image/porfile.png" alt=""></a>
     </header>
 
-    <main class="body__main profile__body">
-        <p class="body__colorA">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem
+    <main class="body__container bg-right--tablet">
+        <p class="body-text">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem
         </p>
 
-        <div class="container">
+        <section class="profile__container">
             <div class="profile">
                 <h1 class="profile__title">Perfil</h1>
-                <label class="label__classB" for="photo">Foto</label>
+                <label class="form-label form-label--blue" for="photo">Foto</label>
                 <div class="photo">
                     <img src="assets/image/foto.png" alt="foto do perfil">
                 </div>
                 <p class="profile__span">clique na foto para editar</p>
             </div>
-            <form class="profile__form" action="get">
-                <label class="label__classB" for="name">Nome</label>
-                <input class="input__classA input__class--white" type="text" name="name" id="name">
-                <label class="label__classB" for="phone">Telefone</label>
-                <input class="input__classA input__class--white" type="number" name="phone" id="phone"></p>
-                <label class="label__classB" for="city">Cidade</label>
-                <input class="input__classA input__class--white" type="text" name="city" id="petName">
-                <label class="label__classB" for="name">Sobre</label>
-                <textarea class="input__classA input__class--white" name="message" id="contactMessage" cols="30" rows="8" placeholder="Escreva sua mensagem">
-                </textarea>
+            
+            <form class="form" action="get">
+                <div class="form-div">
+                    <label class="form-label form-label--blue" for="name">Nome</label>
+                    <input class="form-input" type="text" name="name" id="name">
+                </div>
+
+                <div class="form-div">
+                    <label class="form-label form-label--blue" for="phone">Telefone</label>
+                    <input class="form-input" type="number" name="phone" id="phone"></p>
+                </div>
+
+                <div class="form-div">
+                    <label class="form-label form-label--blue" for="city">Cidade</label>
+                    <input class="form-input" type="text" name="city" id="petName">
+                </div>
+
+                <div class="form-div">
+                    <label class="form-label form-label--blue" for="name">Sobre</label>
+                    <textarea class="form-input" name="message" id="contactMessage" cols="30" rows="8" placeholder="Escreva sua mensagem">
+                    </textarea>
+                </div>
             </form>
             <button class="button button__register">Enviar</button>
-        </div>
+        </section>
     </main>
 
     <footer class="footer">

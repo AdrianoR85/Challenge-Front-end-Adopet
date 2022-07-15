@@ -1,104 +1,57 @@
-.home__text {
-    padding: 0 6rem;
+.card__list {
+    display: grid;
+    gap: 20px;
 }
 
-.home__content {
+.home__title {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem 2rem;
+}
+.card {
+    display: grid;
+    grid-template-areas: 
+    'img name name'
+    'img info info'
+    'img info info'
+    'img info info'
+    'img city city'
+    'img contact contact';
+    color: var(--gray);
+    background-color: var(--lightgray);
+    text-align: left;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 1rem;
     width: 100%;
 }
 
-.dogs__list {
-    padding-top: 2rem;
-}
-
-.dog {
-    background-color: var(--light-gray);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: var(--gray);
-    padding: 1rem 0;
-    text-align: left;
-
-    font-weight: 400;
-    line-height: 20px;
-    z-index: 1;
-
-    margin-top: 1rem;
-
-}
-
-.dog__image {
-    margin: 0 auto;
-    grid-row: span 4;
-    align-self: center;
-}
-
-.dog-name {
-    color: var(--blue);
-    font-weight: 600;
-}
-
-.dog__informations {
-    padding: 1rem 0 1.5rem 0;
-}
-
-.dog__information {
-    font-size: 0.875rem;
-}
-
-.dog__city {
-    font-size: 0.75rem;
-}
-
-.dog__contact {
+.card__image {grid-area: img;}
+.card__name {grid-area: nome;}
+.card__info {grid-area: info;}
+.card__city{grid-area: city; font-size: .75rem;}
+.card__contact {
+    grid-area: contact;
     display: flex;
-    padding-top: .5rem;
-    justify-items: center;
-}
-
-.dog__speak-with {
+    justify-content: left;
     font-size: 0.625rem;
-    margin-left: .5rem;
-    margin-top: -0.1rem;
+    gap: 10px;
 }
 
-/* MOBILE */
-@media (min-width: 0px) {
-    .dogs__list {
-        z-index: -2;
-    }
-
-    .dog {
-        opacity: #f6f6f6;
-    }
-}
-
-/* TABLET */
-@media (min-width:760px) {
-    .dogs__list {
+@media (min-width: 760px) {
+    .card__list {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 10px 20px;  
-    }
-
-    .home__content {
-        width: 90%;
-    }
-
-    .home__text {
-        font-size: 1.125rem;
-        display: flex;
-        flex-direction: column;
+        gap: 10px;
     }
 }
 
-
-/* DESKTOP */
-@media (min-width:1060px) {
-    .dogs__list {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .home__content {
-        width: 70%;
+@media (min-width: 760px) {
+    .card__list {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
     }
 }
+

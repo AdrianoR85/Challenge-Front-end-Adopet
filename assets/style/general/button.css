@@ -13,6 +13,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.button__register {
-    margin-bottom: 1rem;
+.button--last {
+    margin: 1rem auto;
 }

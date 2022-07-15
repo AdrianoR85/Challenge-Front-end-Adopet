@@ -1,9 +1,9 @@
-.register__content p:first-child {
-    padding: 1.2rem 0 0.5rem 0;
+.register__title {
+    padding: 1.5rem 0;
 }
 
 .register__text {
-    padding-bottom:  1rem;
+    padding-bottom: 1rem;
 }
 
 .input__icon {

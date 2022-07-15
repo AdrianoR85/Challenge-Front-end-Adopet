@@ -1,8 +1,8 @@
 .contact__form {
-    text-align: left;
-    background-color: var(--light-gray);
-    border-radius: 6px;
-    margin-top: 1rem;
+   background-color: var(--lightgray);
+   padding: 1rem;
+   margin: 1rem 0;
+   text-align: left;
 }
 
 .contact__message::placeholder {

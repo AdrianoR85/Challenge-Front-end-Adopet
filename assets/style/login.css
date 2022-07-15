@@ -1,10 +1,19 @@
+@import url(general/background.css);
+.login__container {
+    height: 650px;
+}
+
 .login__forgotPassword {
     color: var(--coral);
     text-decoration: none;
-    padding: 1rem;
 }
 
-.login__text {
-    padding: 1rem;
-    
+.login__title {
+    padding: 2rem 0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.login__bg {
+    background: bg-left;
 }
